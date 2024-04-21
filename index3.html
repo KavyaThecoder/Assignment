@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Students Information form </h2>
+    <form style="border:solid 1px red;">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Type Name "><br><br>
+        <label for="course">Course: </label>
+        <input type="text" id="course" name="course" placeholder="Type name of course" required>
+        <label for="roll_number">Roll Number: </label>
+        <input type="text" id="roll_number" name="roll_number" placeholder="Type your roll number" required>
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="data" id="date" name="date" required>
+        <br><br>
+        <label>About Yourself:</label><br>
+        <textarea id="about_yourself" name="about_yourself" rows="4 required"></textarea><br>
+        <label>Gender:</label>
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="radio_button1">Male</label>
+        <input type="radio" id="gender" name="gender" value="female">
+        <label for="radio_button1">Female</label>
+        <input type="radio" id="gender" name="gender" value="other">
+        <label for="radio_button1">Other</label>
+    </fieldset>
+        <label>Checkbox 1:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label>Checkbox 2:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <br><br>
+        <label>Year of Course:</label>
+        <select>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+        </select>
+        <br><br>
+        <button type="submit" id="Submit_now">Submit Now</button>
+        <button type="reset" id="Reset_now">Reset Now</button>
+        <br><br>
+</form>
+</body>
+</html>
